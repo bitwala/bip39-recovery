@@ -1,28 +1,36 @@
-.App {
-  text-align: center;
+main {
+  margin: 3rem 5rem 0 5rem;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
+.jumbotron {
+  background-color: #dcdcdc;
+  border: none;
+  font-size: 2.5rem;
+  margin: 0 auto;
+  max-width: 90%;
+  padding: 1.5rem;
 }
 
-.App-header {
-  background-color: #222;
-  height: 150px;
-  padding: 20px;
-  color: white;
+.jumbotron-paragraph {
+  font-size: 1.4rem;
+  margin-top: 3rem;
 }
 
-.App-title {
-  font-size: 1.5em;
+.control-label {
+  font-size: 2rem;
+  font-weight: bold;
 }
 
-.App-intro {
-  font-size: large;
+.form-control {
+  padding: 0.5rem;
+  margin-bottom: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+.btn {
+  background-color: #00bfff;
+  border: none;
+  margin-top: 3rem;
 }

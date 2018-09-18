@@ -1,6 +1,6 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "BIP39 Private Key Recovery Tool",
+  "name": "BIP39 Private Key Recovery Tool",
   "icons": [
     {
       "src": "favicon.ico",
