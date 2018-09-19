@@ -4,8 +4,6 @@ Use your backup phrases to generate the corresponding private key for your Bitwa
 
 Note: this is only for for the product launched late 2018. For legacy wallets, please google "Bitwala legacy wallet recovery"
 
-For legacy wallets, 
-
 ## Getting Started
 
 Follow these instructions to set up the recovery tool on your machine.
