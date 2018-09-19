@@ -2,7 +2,7 @@
 
 Use your backup phrases to generate the corresponding private key for your Bitwala wallet.
 
-Note: this is only for for the product launched late 2018. For legacy wallets, please google "Bitwala legacy wallet recovery"
+Note: this is only for for the product launched late 2018. For legacy wallets, please see [here](https://support.bitwala.com/hc/en-gb/articles/360000857880/)
 
 [Online version](https://bitwala.github.io/bip39-recovery/).
 
