@@ -4,17 +4,19 @@ Use your backup phrases to generate the corresponding private key for your Bitwa
 
 Note: this is only for for the product launched late 2018. For legacy wallets, please google "Bitwala legacy wallet recovery"
 
-## Getting Started
+[Online version](https://bitwala.github.io/bip39-recovery/).
 
-Follow these instructions to set up the recovery tool on your machine.
+## Running offline
 
-## Requirements
+If you would prefer to run it, offline, follow these instructions to set up the recovery tool on your machine.
+
+### Requirements
 
 - Node & npm [https://nodejs.org/](https://nodejs.org/)
 - 12 word main key list
 - 12 word backup key list
 
-## Installing
+### Installing
 
 - Clone or download the repository
 - `cd app`
