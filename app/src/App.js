@@ -32,7 +32,7 @@ class App extends Component {
         prompt("Copy your main key", toPrivateKey(this.state.main));
       }
     } catch (err) {
-      alert("Error: Your main passprahse was wrong");
+      alert("Error: Your main passphrase was wrong");
       console.error(err);
     }
     try {
@@ -40,7 +40,7 @@ class App extends Component {
         prompt("Copy your backup key", toPrivateKey(this.state.backup));
       }
     } catch (err) {
-      alert("Error: Your backup passprahse was wrong");
+      alert("Error: Your backup passphrase was wrong");
       console.error(err);
     }
   }
@@ -52,13 +52,17 @@ class App extends Component {
             <h1>Bip39 Private Key Recovery tool</h1>
             <p className="jumbotron-paragraph">
               To generate your private keys, please enter your main key 12 word
-              list and your backup key 12 word list. When it's done click
-              "Generate Keys".
+              list and your backup key 12 word list, ensuring you use a space
+              between each word. When it's done click "Generate Keys".
             </p>
           </div>
         </div>
         <main>
-          <form className="form" onSubmit={this.handleSubmit}>
+          <form
+            autocomplete="off"
+            className="form"
+            onSubmit={this.handleSubmit}
+          >
             <FormGroup>
               <ControlLabel>Main key</ControlLabel>
               <FormControl
