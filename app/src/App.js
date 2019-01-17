@@ -29,7 +29,7 @@ class App extends Component {
     e.preventDefault();
     try {
       if (this.state.main) {
-        prompt("Copy your main key", toPrivateKey(this.state.main));
+        prompt("Copy your main key", toPrivateKey(this.state.main.trim()));
       }
     } catch (err) {
       alert("Error: Your main passphrase was wrong");
@@ -37,7 +37,7 @@ class App extends Component {
     }
     try {
       if (this.state.backup) {
-        prompt("Copy your backup key", toPrivateKey(this.state.backup));
+        prompt("Copy your backup key", toPrivateKey(this.state.backup.trim()));
       }
     } catch (err) {
       alert("Error: Your backup passphrase was wrong");
