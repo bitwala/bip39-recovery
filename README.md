@@ -3,7 +3,7 @@
 
 Use your backup phrases to generate the corresponding private key for your Bitwala wallet.
 
-Note: this is only for for the product launched late 2018. For legacy wallets, please see [here](https://support.bitwala.com/hc/en-gb/articles/360000857880/)
+Note: this is only for for the product launched late 2018. For legacy wallets, please see [here](https://support.bitwala.com/hc/en-gb/articles/360000857880/)(no warranty!)
 
 [Online version](https://bitwala.github.io/bip39-recovery/). WARNING NEVER DO THIS!!!
 
@@ -46,7 +46,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
 Benutze deinen Bitwala BTC Hauptschlüssel sowie deinen Backupschlüssel der generierten Wallet.
 
-Hinweis: Diese Anweisungen gelten nur für die App nach Anfang 2018. Für normale Wallets vor 2018, sehe hier nach [hier](https://support.bitwala.com/hc/en-gb/articles/360000857880/)
+Hinweis: Diese Anweisungen gelten nur für die App nach Anfang 2018. Für normale Wallets vor 2018, sehe hier nach [hier](https://support.bitwala.com/hc/en-gb/articles/360000857880/) (p.s. ungetestet und wie auch immer würde ich persönlich das Tool niemals benutzen, entweder liegt der QuellCode offen oder ich benutze es nicht)
 
 ### Sicherheitswarnung! [Online version] NICHT BENUTZEN!!!!.
 
