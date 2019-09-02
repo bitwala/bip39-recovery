@@ -1,12 +1,12 @@
-import React, { Component } from "react";
+import React, {Component} from "react";
 import Mnemonic from "bitcore-mnemonic";
-import { FormGroup, FormControl, ControlLabel, Button } from "react-bootstrap";
+import { FormGroup, FormLabel, FormControl, Button } from "react-bootstrap";
 
 import "./App.css";
 
 const toPrivateKey = words => {
   const code = new Mnemonic(words);
-  return code.toHDPrivateKey().xprivkey;
+  return code.toHDPrivateKey();
 };
 
 class App extends Component {
@@ -60,11 +60,14 @@ class App extends Component {
         <main>
           <form
             autocomplete="off"
+                        autocorrect="off"
+                        autocapitalize="off"
+                        spellcheck="false"
             className="form"
             onSubmit={this.handleSubmit}
           >
             <FormGroup>
-              <ControlLabel>Main key</ControlLabel>
+              <FormLabel>Main key</FormLabel>
               <FormControl
                 required
                 type="text"
@@ -73,7 +76,7 @@ class App extends Component {
                 onChange={this.handleChange}
                 placeholder="Enter your main key here"
               />
-              <ControlLabel>Backup key</ControlLabel>
+              <FormLabel>Backup key</FormLabel>
               <FormControl
                 required
                 type="text"
