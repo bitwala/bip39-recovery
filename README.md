@@ -40,6 +40,22 @@ If you would prefer to run it, offline, follow these instructions to set up the 
 - Run `yarn`
 - Run `yarn start`
 
+- Test patter: 
+    - Main key: search scout husband nasty dust choose stable carry memory struggle identify slim
+        - Result: xprv9s21ZrQH143K3SWqj8XUcCNPd5QzLq8aFHBY4QCw4ZLossvsrETTARg3nA5FZqPjpWMKdwEpM9jkqb9Mwc35XxV1sLcuwfePsEuxsw3ukDe
+            - with password: test: xprv9s21ZrQH143K3qvn1A5XS9U2Fz6hwLjZ77e3o3WdGXHwA3jkZfWfui1Hz9Xra1joMGgndQPDA2YoRxYezfNiLDaGGMr1uqMhAzZCESvZ1Rw
+    - Backup key: mule decrease dragon exist rubber network trouble inner mouse drum gadget stone
+        - Result: xprv9s21ZrQH143K42181pdXa85XUv5YerBRQQ1qPDSD8BCKa1e7pjm1Q9dRhZpxiWfQGWPrWfWdDZFDYRsCF9aWPSc5n1ZuyxTVrSpVXujgZBc
+            - with pasword: test: xprv9s21ZrQH143K253SFRj76SwzLU3Gt1WqdrxDfeMhuyH8CFHfLCm79jeNGB6ZnAAkFzY9nzeK5FeWRRUVFo2fxHADRqDZLhtJDJqjWK6xEBB
+
+`If you copy and past the keys above you will get the above results, if not something is wrong`
+
+### Work ice-cold / offline
+yarn build
+yarn global add serve
+serve -s build
+
+
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 ## DEUTSCH
