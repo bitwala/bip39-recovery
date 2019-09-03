@@ -22,3 +22,21 @@ If you would prefer to run it, offline, follow these instructions to set up the 
 - `cd app`
 - Run `yarn`
 - Run `yarn start`
+
+### Testing
+- Test patter: 
+    - Main key: search scout husband nasty dust choose stable carry memory struggle identify slim
+        - Result: xprv9s21ZrQH143K3SWqj8XUcCNPd5QzLq8aFHBY4QCw4ZLossvsrETTARg3nA5FZqPjpWMKdwEpM9jkqb9Mwc35XxV1sLcuwfePsEuxsw3ukDe
+    - Backup key: mule decrease dragon exist rubber network trouble inner mouse drum gadget stone
+        - Result: xprv9s21ZrQH143K42181pdXa85XUv5YerBRQQ1qPDSD8BCKa1e7pjm1Q9dRhZpxiWfQGWPrWfWdDZFDYRsCF9aWPSc5n1ZuyxTVrSpVXujgZBc
+
+
+`If you copy and past the keys above you will get the above results, if not something is wrong`
+
+### Make your key's ice-cold / offline
+
+- [x] `yarn build && yarn global add serve`
+- [x] copy the build folder to an USB drive or any other media 
+- [x] mount the device at a cold machine
+- [x] cd into build folder and run:
+- [x] `serve -s`
