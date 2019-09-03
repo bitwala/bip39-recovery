@@ -1,5 +1,6 @@
 main {
   margin: 3rem 5rem 0 5rem;
+  font-size: 1.4rem;
 }
 
 .jumbotron {
@@ -22,6 +23,7 @@ main {
 }
 
 .form-control {
+  font-size: 1.4rem;
   padding: 0.5rem;
   margin-bottom: 1.5rem;
   display: flex;
