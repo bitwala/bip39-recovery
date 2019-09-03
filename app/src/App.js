@@ -1,15 +1,15 @@
-import React, { Component } from "react";
+import React from "react";
 import Mnemonic from "bitcore-mnemonic";
-import { FormGroup, FormControl, ControlLabel, Button } from "react-bootstrap";
+import { FormGroup, FormLabel, FormControl, Button } from "react-bootstrap";
 
 import "./App.css";
 
 const toPrivateKey = words => {
   const code = new Mnemonic(words);
-  return code.toHDPrivateKey().xprivkey;
+  return code.toHDPrivateKey();
 };
 
-class App extends Component {
+class App extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -47,8 +47,8 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <div class="container">
-          <div class="jumbotron">
+        <div className="container">
+          <div className="jumbotron">
             <h1>Bip39 Private Key Recovery tool</h1>
             <p className="jumbotron-paragraph">
               To generate your private keys, please enter your main key 12 word
@@ -59,12 +59,15 @@ class App extends Component {
         </div>
         <main>
           <form
-            autocomplete="off"
+              autoComplete="off"
+              autoCorrect="off"
+              autoCapitalize="off"
+              spellCheck="false"
             className="form"
             onSubmit={this.handleSubmit}
           >
             <FormGroup>
-              <ControlLabel>Main key</ControlLabel>
+              <FormLabel>Main key</FormLabel>
               <FormControl
                 required
                 type="text"
@@ -73,7 +76,7 @@ class App extends Component {
                 onChange={this.handleChange}
                 placeholder="Enter your main key here"
               />
-              <ControlLabel>Backup key</ControlLabel>
+              <FormLabel>Backup key</FormLabel>
               <FormControl
                 required
                 type="text"
@@ -85,8 +88,8 @@ class App extends Component {
               <Button
                 className="float-right"
                 type="submit"
-                bsStyle="primary"
-                bsSize="large"
+                bsstyle='primary'
+                bssize="large"
               >
                 Generate Keys
               </Button>
