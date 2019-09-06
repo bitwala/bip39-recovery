@@ -144,8 +144,8 @@ Ich selbst benutze einen RasPi dem ich die Treiber für LAN, WLAN und Bluetooth 
 ### Vorraussetzungen
 
 - Node & npm [https://nodejs.org/](https://nodejs.org/)
-- Hauptschlüssel 12 Worte 
-- Backupschlüssel 12 Worte 
+- Hauptschlüssel 12 Worte
+- Backupschlüssel 12 Worte
 
 
 ### Installation
